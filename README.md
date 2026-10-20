@@ -48,6 +48,14 @@ changes — and it will.
 v0.1 is regex-based, not a SQL parser. It catches the common cases and will false-positive on
 exotic syntax. Open an issue with the statement and I will add a test.
 
+## Works on
+
+| Platform | Status |
+| --- | --- |
+| Fabric Warehouse | yes — that is its purpose |
+| Databricks / Snowflake | not applicable (different SQL dialects) |
+| Local Python | yes — lints files, no dependencies |
+
 ## License
 
 MIT
